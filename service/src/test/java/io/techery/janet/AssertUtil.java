@@ -1,4 +1,4 @@
-package io.techery.janet;
+package io.janet;
 
 import org.junit.Assert;
 import org.mockito.invocation.InvocationOnMock;

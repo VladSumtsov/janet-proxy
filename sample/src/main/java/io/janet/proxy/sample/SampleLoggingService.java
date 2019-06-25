@@ -1,9 +1,9 @@
-package io.techery.janet.proxy.sample;
+package io.janet.proxy.sample;
 
-import io.techery.janet.ActionHolder;
-import io.techery.janet.ActionService;
-import io.techery.janet.ActionServiceWrapper;
-import io.techery.janet.JanetException;
+import io.janet.ActionHolder;
+import io.janet.ActionService;
+import io.janet.ActionServiceWrapper;
+import io.janet.JanetException;
 
 public class SampleLoggingService extends ActionServiceWrapper {
 

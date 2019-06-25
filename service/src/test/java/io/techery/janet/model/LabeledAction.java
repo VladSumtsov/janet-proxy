@@ -1,4 +1,4 @@
-package io.techery.janet.model;
+package io.janet.model;
 
 public interface LabeledAction {
   String label();

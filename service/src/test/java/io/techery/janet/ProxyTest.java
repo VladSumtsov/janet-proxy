@@ -1,4 +1,4 @@
-package io.techery.janet;
+package io.janet;
 
 import org.assertj.core.api.Assertions;
 import org.assertj.core.api.ThrowableAssert;
@@ -8,13 +8,13 @@ import org.mockito.Mockito;
 import org.mockito.invocation.InvocationOnMock;
 import org.mockito.stubbing.Answer;
 
-import io.techery.janet.model.LabeledAction;
-import io.techery.janet.model.MockServiceAction;
-import io.techery.janet.model.MockTestAction1;
-import io.techery.janet.model.MockTestAction2;
-import io.techery.janet.model.MockTestAction3;
-import io.techery.janet.model.OtherServiceAction;
-import io.techery.janet.proxy.ServiceMappingRule;
+import io.janet.model.LabeledAction;
+import io.janet.model.MockServiceAction;
+import io.janet.model.MockTestAction1;
+import io.janet.model.MockTestAction2;
+import io.janet.model.MockTestAction3;
+import io.janet.model.OtherServiceAction;
+import io.janet.proxy.ServiceMappingRule;
 import rx.observers.TestSubscriber;
 
 import static org.mockito.Matchers.any;
